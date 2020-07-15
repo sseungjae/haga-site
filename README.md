@@ -1,3 +1,3 @@
-# haga-site
+# hagasite
 
 haga website
