@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  background: rgb(27, 155, 206);
   z-index: 1000;
 }
 
@@ -46,7 +46,7 @@ header ul li a {
 }
 header ul li a.active,
 header ul li a:hover {
-  background: #205aff;
+  background: #7520ff;
 }
 
 .toggle {
@@ -81,7 +81,7 @@ section a {
   padding: 8px 10px;
   text-decoration: none;
   font-size: 18px;
-  background: #111;
+  background: rgb(27, 155, 206);
   color: #fff;
   margin-top: 20px;
 }
@@ -90,7 +90,7 @@ section:nth-child(odd) {
   position: relative;
   justify-content: center;
   align-items: center;
-  background: #111;
+  background: rgb(27, 155, 206);
   color: #fff;
 }
 
@@ -117,7 +117,7 @@ section:nth-child(odd) {
     text-align: center;
     overflow: auto;
     transition: 0.5s;
-    background: #000;
+    background: rgb(27, 155, 206);
     flex-direction: column;
     opacity: 0;
     transform: translateY(-100%);
