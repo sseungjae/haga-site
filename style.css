@@ -95,7 +95,6 @@ section:nth-child(odd) {
 }
 
 .form {
-  border: solid 1px red;
   padding: 50px;
   background: #162c3b;
   text-align: center;
@@ -103,6 +102,49 @@ section:nth-child(odd) {
 
 .inputbx {
   margin-bottom: 40px;
+}
+
+.inputbx input {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbx input::placeholder {
+  color: #fff;
+}
+
+.inputbx textarea {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  min-height: 150px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbx textarea::placeholder {
+  color: #fff;
+}
+
+.inputbx input[type="submit"] {
+  width: 150px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400p;
 }
 
 @media (max-width: 992px) {
