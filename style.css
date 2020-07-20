@@ -94,6 +94,19 @@ section:nth-child(odd) {
   color: #fff;
 }
 
+.workBx {
+  position: relactive;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.workBx .brand {
+  position: relative;
+}
+
 .form {
   padding: 150px;
   background: #162c3b;
